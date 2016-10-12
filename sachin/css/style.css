@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+.scoreboard {
+    display: flex;
+    width: 505px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.container {
+    display: flex;
+}
+
+#lives + ul {
+    padding-left: 20px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.live {
+    background: url('../images/heartSm.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 4px;
+}
